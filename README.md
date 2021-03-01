@@ -1,8 +1,11 @@
-TRPO
-https://user-images.githubusercontent.com/18234564/109558347-e7f5d000-7a9e-11eb-9b22-57c75c89baf1.mp4
+TRPO is fooled to learn the backward running policy on HalfCheetah with epsilon=0.01 and delta large enough.
 
-FPG
-https://user-images.githubusercontent.com/18234564/109558352-eaf0c080-7a9e-11eb-9921-2c5446288711.mp4
+![cheetah_backward](https://user-images.githubusercontent.com/18234564/109559118-e7116e00-7a9f-11eb-8f6e-06daf3eb8ebf.gif)
+
+FPG remains unaffected.
+
+![cheetah_forward](https://user-images.githubusercontent.com/18234564/109559179-fabcd480-7a9f-11eb-9459-51c423d0ecaa.gif)
+
 
 # PyTorch implementation of the Filtered Policy Gradient (FPG) algorithm
 
