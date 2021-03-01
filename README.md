@@ -11,6 +11,8 @@ python main.py --env-name "Swimmer-v3" --sever 0 --attack_norm 10 --max_iter_num
 python main.py --env-name "Swimmer-v3" --sever 1 --attack_norm 10 --max_iter_num 200 --eps 0.01 # FPG
 ```
 
+## Fun Results
+
 TRPO is fooled to learn the backward running policy on HalfCheetah with epsilon=0.01 and delta large enough.
 
 ![cheetah_backward](https://user-images.githubusercontent.com/18234564/109559118-e7116e00-7a9f-11eb-8f6e-06daf3eb8ebf.gif)
